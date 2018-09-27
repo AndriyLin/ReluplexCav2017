@@ -145,7 +145,7 @@ public:
         , _eliminateAlmostBrokenRelus( false )
         , _printAssignment( false )
         , _numOutOfBoundFixes( 0 )
-        , _numOutOfBoundFixesViaBland( 0 )
+        //, _numOutOfBoundFixesViaBland( 0 )  // Not used in code, commented out to avoid -Wunused-private-field
         , _useDegradationChecking( false )
         , _numLpSolverInvocations( 0 )
         , _numLpSolverFoundSolution( 0 )
@@ -3411,7 +3411,7 @@ private:
     Set<unsigned> _eliminatedVars;
 
     unsigned _numOutOfBoundFixes;
-    unsigned _numOutOfBoundFixesViaBland;
+    //unsigned _numOutOfBoundFixesViaBland;  // Not used in code, commented out to avoid -Wunused-private-field
 
     bool _useDegradationChecking;
     unsigned _numLpSolverInvocations;
