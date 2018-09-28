@@ -33,15 +33,15 @@ public:
     {
         _reluplex = new Reluplex( 9 );
 
-        _reluplex->setName( 0, "x1" );
-        _reluplex->setName( 1, "x2b" );
-        _reluplex->setName( 2, "x2f" );
-        _reluplex->setName( 3, "x3b" );
-        _reluplex->setName( 4, "x3f" );
-        _reluplex->setName( 5, "x4" );
-        _reluplex->setName( 6, "x5" );
-        _reluplex->setName( 7, "x6" );
-        _reluplex->setName( 8, "x7" );
+        _reluplex->setName( 0, "v11" );
+        _reluplex->setName( 1, "v21b" );
+        _reluplex->setName( 2, "v21f" );
+        _reluplex->setName( 3, "v22b" );
+        _reluplex->setName( 4, "v22f" );
+        _reluplex->setName( 5, "v31" );
+        _reluplex->setName( 6, "a3" );
+        _reluplex->setName( 7, "a1" );
+        _reluplex->setName( 8, "a2" );
 
         _reluplex->setLogging( true );
 
