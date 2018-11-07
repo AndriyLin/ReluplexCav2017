@@ -19,38 +19,38 @@ add_library(nnet nnet/nnet.cpp)
 add_executable(RunReluplex reluplex/main.cpp)
 target_link_libraries(RunReluplex nnet glpk)
 
-add_executable(prop1 check_properties/property1/main.cpp)
-target_link_libraries(prop1 nnet glpk)
+add_executable(property1 check_properties/property1/main.cpp)
+target_link_libraries(property1 nnet glpk)
 
-add_executable(prop2 check_properties/property2/main.cpp)
-target_link_libraries(prop2 nnet glpk)
+add_executable(property2 check_properties/property2/main.cpp)
+target_link_libraries(property2 nnet glpk)
 
-add_executable(prop3 check_properties/property3/main.cpp)
-target_link_libraries(prop3 nnet glpk)
+add_executable(property3 check_properties/property3/main.cpp)
+target_link_libraries(property3 nnet glpk)
 
-add_executable(prop4 check_properties/property4/main.cpp)
-target_link_libraries(prop4 nnet glpk)
+add_executable(property4 check_properties/property4/main.cpp)
+target_link_libraries(property4 nnet glpk)
 
-add_executable(prop5 check_properties/property5/main.cpp)
-target_link_libraries(prop5 nnet glpk)
+add_executable(property5 check_properties/property5/main.cpp)
+target_link_libraries(property5 nnet glpk)
 
-add_executable(prop6a check_properties/property6a/main.cpp)
-target_link_libraries(prop6a nnet glpk)
+add_executable(property6a check_properties/property6a/main.cpp)
+target_link_libraries(property6a nnet glpk)
 
-add_executable(prop6b check_properties/property6b/main.cpp)
-target_link_libraries(prop6b nnet glpk)
+add_executable(property6b check_properties/property6b/main.cpp)
+target_link_libraries(property6b nnet glpk)
 
-add_executable(prop7 check_properties/property7/main.cpp)
-target_link_libraries(prop7 nnet glpk)
+add_executable(property7 check_properties/property7/main.cpp)
+target_link_libraries(property7 nnet glpk)
 
-add_executable(prop8 check_properties/property8/main.cpp)
-target_link_libraries(prop8 nnet glpk)
+add_executable(property8 check_properties/property8/main.cpp)
+target_link_libraries(property8 nnet glpk)
 
-add_executable(prop9 check_properties/property9/main.cpp)
-target_link_libraries(prop9 nnet glpk)
+add_executable(property9 check_properties/property9/main.cpp)
+target_link_libraries(property9 nnet glpk)
 
-add_executable(prop10 check_properties/property10/main.cpp)
-target_link_libraries(prop10 nnet glpk)
+add_executable(property10 check_properties/property10/main.cpp)
+target_link_libraries(property10 nnet glpk)
 
 add_executable(adversarial check_properties/adversarial/main.cpp)
 target_link_libraries(adversarial nnet glpk)
