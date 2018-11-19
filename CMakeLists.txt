@@ -78,3 +78,6 @@ target_link_libraries(paper_robust nnet glpk)
 
 add_executable(sentiment_prop check_properties/xlexp/sentiment_prop.cpp)
 target_link_libraries(sentiment_prop nnet glpk)
+
+add_executable(generic_prover check_properties/xlexp/generic_prover.cpp)
+target_link_libraries(generic_prover nnet glpk)
