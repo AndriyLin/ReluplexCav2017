@@ -318,7 +318,6 @@ bool ever_max(const KeywordIndices& kws, int is_pos, const char *high1, const ch
     for ( const auto &it : outputVarToConstraintNode )
     {
         reluplex.markBasic( it.second );
-        reluplex.markOutConstraint( it.second );
         reluplex.setLowerBound( it.second, 0.0 );
     }
 

@@ -295,7 +295,6 @@ bool ever_max(unsigned high_idx, unsigned targetOutputVariableIndex, char *final
     for ( const auto &it : outputVarToConstraintNode )
     {
         reluplex.markBasic( it.second );
-        reluplex.markOutConstraint( it.second );
         reluplex.setLowerBound( it.second, 0.0 );
     }
 
